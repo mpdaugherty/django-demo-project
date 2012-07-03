@@ -1,0 +1,35 @@
+# Compiled python files
+*.pyc
+
+# Emacs temp files
+*~
+\#.*\#
+
+# Vim
+*.swp
+*.swo
+
+# OSX folder attributes
+.DS_Store
+*.bak
+logs
+
+# IDE project files
+.pydevproject # Pydev.org
+/.pydevproject # Pydev.org
+.settings/org.eclipse.core.resources.prefs # Eclipse
+/.settings/org.eclipse.core.resources.prefs # Eclipse
+.idea # PyCharm
+/.idea
+
+# Stackdumps
+*.stackdump
+
+# Dev DBs
+*.sqlite
+
+# static output contents from django
+/static_output/[^\.]*
+
+# Ignore generated log files
+hackerbeers/logs/
